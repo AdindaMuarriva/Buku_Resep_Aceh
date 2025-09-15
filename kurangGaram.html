@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Versi Kurang Garam</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--primary:#3DA0A7;--bg:#fbfbfc;--card:#fff;--text:#222;font-family:'Poppins',system-ui,-apple-system,'Segoe UI',Roboto,Arial}
+    *{box-sizing:border-box}
+    body{margin:0;padding:28px;background:linear-gradient(180deg,#ffffff,var(--bg));color:var(--text)}
+    .container{max-width:900px;margin:0 auto}
+    .card{background:var(--card);border-radius:12px;padding:22px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+    header{display:flex;gap:16px;align-items:center}
+    .badge{background:var(--primary);color:#fff;padding:8px 12px;border-radius:8px;font-weight:600}
+    h1{margin:0;font-size:26px}
+    .meta{color:#666;font-size:13px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:16px}
+    @media (max-width:880px){.grid{grid-template-columns:1fr}}
+    ul,ol{margin:8px 0 16px 18px}
+    .section-title{font-weight:600;margin-top:8px}
+    .info{background:#f6f7f8;padding:12px;border-radius:8px;font-size:14px}
+    .btn{background:var(--primary);color:#fff;padding:10px 14px;border-radius:8px;border:none;cursor:pointer}
+    .btn.secondary{background:#eee;color:var(--text)}
+    footer{margin-top:18px;color:#666;font-size:13px}
+    img{width:100%;border-radius:8px;object-fit:cover}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:4px;font-family:monospace}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+        <div class="badge">Versi Kurang Garam</div>
+        <div>
+          <h1>Resep dengan Garam Dikurangi</h1>
+          <div class="meta">Catatan khusus: Kurangi garam 1 sendok teh pada setiap resep.</div>
+        </div>
+      </header>
+
+      <div class="grid">
+        <main>
+          <p class="section-title">Perubahan Resep</p>
+          <ul>
+            <li>Kurangi <strong>1 sendok teh garam</strong> dari takaran resep utama.</li>
+            <li>Langkah-langkah lain tetap sama sesuai resep asli.</li>
+          </ul>
+
+          <p class="section-title">Manfaat</p>
+          <ul>
+            <li>Rasa lebih ringan, cocok untuk penderita hipertensi.</li>
+            <li>Lebih sehat untuk dikonsumsi sehari-hari.</li>
+          </ul>
+
+          <div style="margin-top:8px" class="btn-row">
+            <a href="timphan.html"><button class="btn secondary">Kembali ke Resep Timphan</button></a>
+          </div>
+        </main>
+
+        <aside>
+          <img src="https://images.unsplash.com/photo-1617196038437-d6d0f0e6b46a?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder" alt="Kurangi Garam" />
+
+          <div style="margin-top:12px" class="card info">
+            <div style="font-weight:600">Informasi Tambahan</div>
+            <div>Pengurangan garam ini tidak mengubah proses pembuatan, hanya menyesuaikan cita rasa agar lebih sehat.</div>
+          </div>
+        </aside>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
