@@ -1,129 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Resep Nasi Goreng Aceh</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--primary:#3DA0A7;--bg:#fbfbfc;--card:#fff;--text:#222;font-family:'Poppins',system-ui,-apple-system,'Segoe UI',Roboto,Arial}
+    *{box-sizing:border-box}
+    body{margin:0;padding:28px;background:linear-gradient(180deg,#ffffff,var(--bg));color:var(--text)}
+    .container{max-width:900px;margin:0 auto}
+    .card{background:var(--card);border-radius:12px;padding:22px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+    header{display:flex;gap:16px;align-items:center}
+    .badge{background:var(--primary);color:#fff;padding:8px 12px;border-radius:8px;font-weight:600}
+    h1{margin:0;font-size:26px}
+    .meta{color:#666;font-size:13px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:16px}
+    @media (max-width:880px){.grid{grid-template-columns:1fr}}
+    ul,ol{margin:8px 0 16px 18px}
+    .section-title{font-weight:600;margin-top:8px}
+    .info{background:#f6f7f8;padding:12px;border-radius:8px;font-size:14px}
+    .btn{background:var(--primary);color:#fff;padding:10px 14px;border-radius:8px;border:none;cursor:pointer}
+    .btn.secondary{background:#eee;color:var(--text)}
+    footer{margin-top:18px;color:#666;font-size:13px}
+    img{width:100%;border-radius:8px;object-fit:cover}
+  </style>
 </head>
 <body>
-  <h1>Resep Nasi Goreng Aceh</h1>
-  <p><strong>Nasi Goreng Aceh</strong> adalah hidangan khas Aceh yang terkenal dengan aroma rempahnya yang kuat dan rasa pedas gurih. Berikut resep lengkapnya.</p>
+  <div class="container">
+    <div class="card">
+      <header>
+        <div class="badge">Resep Tradisional</div>
+        <div>
+          <h1>Nasi Goreng Aceh</h1>
+          <div class="meta">Sederhana, pedas, dan penuh rempah khas Aceh.</div>
+        </div>
+      </header>
 
-  <h2>Bahan-Bahan</h2>
-  <table border="1" cellpadding="6" cellspacing="0">
-    <tr>
-      <th>Bahan</th>
-      <th>Takaran</th>
-      <th>Keterangan</th>
-    </tr>
-    <tr>
-      <td>Nasi putih</td>
-      <td>300 g</td>
-      <td>Sebaiknya nasi dingin/sisa semalam</td>
-    </tr>
-    <tr>
-      <td>Minyak goreng</td>
-      <td>2 sdm</td>
-      <td>Untuk menumis</td>
-    </tr>
-    <tr>
-      <td>Bawang merah</td>
-      <td>3 siung</td>
-      <td>Iris tipis</td>
-    </tr>
-    <tr>
-      <td>Bawang putih</td>
-      <td>2 siung</td>
-      <td>Cincang halus</td>
-    </tr>
-    <tr>
-      <td>Cabai merah</td>
-      <td>2 buah</td>
-      <td>Iris tipis (atau sesuai selera)</td>
-    </tr>
-    <tr>
-      <td>Ayam/udang</td>
-      <td>100 g</td>
-      <td>Suwir atau potong kecil (opsional)</td>
-    </tr>
-    <tr>
-      <td>Telur</td>
-      <td>1 butir</td>
-      <td>Kocok lepas</td>
-    </tr>
-    <tr>
-      <td>Kecap manis</td>
-      <td>2 sdm</td>
-      <td>Memberi rasa manis gurih</td>
-    </tr>
-    <tr>
-      <td>Garam</td>
-      <td>1 sdt</td>
-      <td>Bisa diganti kecap ikan</td>
-    </tr>
-    <tr>
-      <td>Merica bubuk</td>
-      <td>1/2 sdt</td>
-      <td>Sesuai selera</td>
-    </tr>
-    <tr>
-      <td>Daun bawang</td>
-      <td>1 batang</td>
-      <td>Iris tipis</td>
-    </tr>
-    <tr>
-      <td>Bubuk kari Aceh</td>
-      <td>1 sdt</td>
-      <td>Opsional, untuk aroma khas</td>
-    </tr>
-    <tr>
-      <td>Jeruk nipis</td>
-      <td>1 buah</td>
-      <td>Sebagai pelengkap</td>
-    </tr>
-    <tr>
-      <td>Bawang goreng</td>
-      <td>Secukupnya</td>
-      <td>Taburan</td>
-    </tr>
-  </table>
+      <div class="grid">
+        <main>
+          <p class="section-title">Bahan-Bahan</p>
+          <ul>
+            <li>300 g nasi putih (sebaiknya nasi dingin/sisa semalam)</li>
+            <li>2 sdm minyak goreng</li>
+            <li>3 siung bawang merah, iris tipis</li>
+            <li>2 siung bawang putih, cincang halus</li>
+            <li>2 buah cabai merah, iris tipis</li>
+            <li>100 g ayam/udang (suwir atau potong kecil, opsional)</li>
+            <li>1 butir telur, kocok lepas</li>
+            <li>2 sdm kecap manis</li>
+            <li>1 sdt garam</li>
+            <li>1/2 sdt merica bubuk</li>
+            <li>1 batang daun bawang, iris tipis</li>
+            <li>1 sdt bubuk kari Aceh (opsional)</li>
+            <li>1 buah jeruk nipis</li>
+            <li>Bawang goreng secukupnya</li>
+          </ul>
 
-  <h2>Cara Membuat</h2>
-  <ol>
-    <li>Panaskan minyak di wajan.</li>
-    <li>Tumis bawang merah dan bawang putih hingga harum.</li>
-    <li>Masukkan ayam atau udang, masak hingga matang.</li>
-    <li>Tambahkan cabai dan bubuk kari, aduk sebentar.</li>
-    <li>Geser bumbu ke sisi wajan, tuang telur, lalu orak-arik hingga matang.</li>
-    <li>Masukkan nasi, aduk rata hingga bumbu tercampur.</li>
-    <li>Tambahkan kecap manis, garam, dan merica, lalu aduk kembali.</li>
-    <li>Masukkan daun bawang, aduk sebentar, lalu angkat.</li>
-    <li>Sajikan dengan taburan bawang goreng dan perasan jeruk nipis.</li>
-  </ol>
+          <p class="section-title">Cara Membuat</p>
+          <ol>
+            <li>Panaskan minyak di wajan.</li>
+            <li>Tumis bawang merah dan bawang putih hingga harum.</li>
+            <li>Masukkan ayam atau udang, masak hingga matang.</li>
+            <li>Tambahkan cabai dan bubuk kari, aduk sebentar.</li>
+            <li>Geser bumbu ke sisi wajan, tuang telur, lalu orak-arik hingga matang.</li>
+            <li>Masukkan nasi, aduk rata hingga bumbu tercampur.</li>
+            <li>Tambahkan kecap manis, garam, dan merica, lalu aduk kembali.</li>
+            <li>Masukkan daun bawang, aduk sebentar, lalu angkat.</li>
+            <li>Sajikan dengan taburan bawang goreng dan perasan jeruk nipis.</li>
+          </ol>
 
-  <h2>Tips</h2>
-  <ul>
-    <li>Gunakan nasi yang pera agar tidak lengket.</li>
-    <li>Tambahkan sedikit serai dimemarkan untuk aroma lebih khas.</li>
-    <li>Untuk rasa lebih pedas, bisa ditambah cabai rawit.</li>
-  </ul>
+          <p class="section-title">Tips</p>
+          <ul>
+            <li>Gunakan nasi pera agar tidak lengket.</li>
+            <li>Tambahkan sedikit serai dimemarkan untuk aroma lebih khas.</li>
+            <li>Untuk rasa lebih pedas, tambahkan cabai rawit.</li>
+          </ul>
 
-  <h2>Pelengkap</h2>
-  <p>Nasi goreng Aceh biasanya disajikan dengan:</p>
-  <ul>
-    <li>Acar timun</li>
-    <li>Kerupuk</li>
-    <li>Jeruk nipis</li>
-  </ul>
+          <div style="margin-top:8px" class="btn-row">
+            <a href="kurangGaram.html"><button class="btn">Lihat Versi Kurang Garam</button></a>
+          </div>
+        </main>
 
-  <h2>Gambar</h2>
-  <img src="https://www.masakapahariini.com/wp-content/uploads/2022/11/nasi-goreng-aceh.jpg" alt="Nasi Goreng Aceh" width="400">
+        <aside>
+          <img src="https://www.masakapahariini.com/wp-content/uploads/2022/11/nasi-goreng-aceh.jpg" alt="Nasi Goreng Aceh" />
 
-  <h2>Video Tutorial</h2>
-  <p>Lihat cara memasak di YouTube: 
-    <a href="https://www.youtube.com/watch?v=gl0EzsL-2SU" target="_blank">Video Nasi Goreng Aceh</a>
-  </p>
+          <div style="margin-top:12px" class="card info">
+            <div style="font-weight:600">Video Tutorial</div>
+            <div>Lihat cara memasak di 
+              <a href="https://www.youtube.com/watch?v=gl0EzsL-2SU" target="_blank">YouTube</a>.
+            </div>
+          </div>
+        </aside>
+      </div>
 
-  <hr>
-  <p><em>© Resep Nasi Goreng Aceh — sederhana, pedas, dan penuh rempah.</em></p>
+      <footer>
+        © Resep Nasi Goreng Aceh — sederhana, pedas, dan penuh rempah.
+      </footer>
+
+    </div>
+  </div>
 </body>
 </html>
